@@ -70,7 +70,7 @@ function showData() {
     // ローダーの表示
     showLoader();
     // ログGASのデプロイURLを設定
-    const deployUrl = 'https://script.google.com/macros/s/AKfycbwpjqJWo-9OJoYzDFsGorGRFrXNc-yta0do7L_JTGCWK0Ec1mVvdkymRaCRBZ8Ical7/exec';
+    const deployUrl = 'https://script.google.com/macros/s/AKfycbzqLAkVBukrQdFa2tf9WFT5W22I1HeXbTKzA0khm8vlKq3cJapjZickIyd7h4ogEn0lQw/exec';
     // 指定されたURLにリクエストを送信
     fetch(deployUrl)
         .then(response => {

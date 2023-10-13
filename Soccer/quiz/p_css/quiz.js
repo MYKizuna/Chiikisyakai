@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function () {
     let quizNum = 1;
 
     // サッカークイズGASのデプロイURLを設定
-    const deployUrl = 'https://script.google.com/macros/s/AKfycbyT5b10xb-Ave5Ozgi2aaAnqABD-TWzJFEgJLgO88N_Jj-V75R3x0_l7myxritXTyuw/exec';
+    const deployUrl = 'https://script.google.com/macros/s/AKfycbyxO0LJNwjLGMuITaB68Ty4Wl1ZFgVS-oTVtVPNgL_YUU0SLzbEcM0V-dPrjgMCKIib/exec';
     // Dexie.jsのデータベースを作成
     const db = new Dexie('QuizAppDB');
     // ストア（テーブル）の定義
@@ -166,7 +166,7 @@ window.addEventListener('DOMContentLoaded', function () {
                                         Point: point
                                     }).then(function () {
                                         // POST送信用のURLを定義
-                                        const postUrl = 'https://script.google.com/macros/s/AKfycbw4lKj3w8zccvqvyfwTfu-e1iGTfvh_vsIB3vn1TBA1cd-EKwBznXLgDLQoKCO2hoch/exec';
+                                        const postUrl = 'https://script.google.com/macros/s/AKfycbzqLAkVBukrQdFa2tf9WFT5W22I1HeXbTKzA0khm8vlKq3cJapjZickIyd7h4ogEn0lQw/exec';
 
                                         // 送信データ
                                         let SendDATA = {

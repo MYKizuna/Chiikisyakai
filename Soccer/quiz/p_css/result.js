@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', function () {
         // 正解数の格納
         point = record.Point;
         // ユーザーデータが格納されているGASのデプロイURLを設定
-        const deployUrl = 'https://script.google.com/macros/s/AKfycbw4lKj3w8zccvqvyfwTfu-e1iGTfvh_vsIB3vn1TBA1cd-EKwBznXLgDLQoKCO2hoch/exec';
+        const deployUrl = 'https://script.google.com/macros/s/AKfycbzqLAkVBukrQdFa2tf9WFT5W22I1HeXbTKzA0khm8vlKq3cJapjZickIyd7h4ogEn0lQw/exec';
         // リクエストの送信
         fetch(deployUrl).then(function (response) {
             // レスポンスデータをJSON形式に変換
