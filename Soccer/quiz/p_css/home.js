@@ -69,7 +69,7 @@ function showData() {
 
     // ローダーの表示
     showLoader();
-    // ログGASのデプロイURLを設定
+    // ログスプレッドシートのウェブアプリURLを設定
     const deployUrl = 'https://script.google.com/macros/s/AKfycbzqLAkVBukrQdFa2tf9WFT5W22I1HeXbTKzA0khm8vlKq3cJapjZickIyd7h4ogEn0lQw/exec';
     // 指定されたURLにリクエストを送信
     fetch(deployUrl)

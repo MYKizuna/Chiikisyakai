@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
     userTable.orderBy('id').last(function (record) {
         // 正解数の格納
         point = record.Point;
-        // ユーザーデータが格納されているGASのデプロイURLを設定
+        // ログスプレッドシートのウェブアプリURLを設定
         const deployUrl = 'https://script.google.com/macros/s/AKfycbzqLAkVBukrQdFa2tf9WFT5W22I1HeXbTKzA0khm8vlKq3cJapjZickIyd7h4ogEn0lQw/exec';
         // リクエストの送信
         fetch(deployUrl).then(function (response) {
